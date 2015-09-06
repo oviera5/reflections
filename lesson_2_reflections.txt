@@ -1,0 +1,3 @@
+What happens when you initalize a repository? Why do you need to do it?
+
+	A hidden file is created that keeps track of changes within that repository and it is done in order to establish the scope fo the repository.

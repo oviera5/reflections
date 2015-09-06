@@ -1,3 +1,7 @@
 What happens when you initalize a repository? Why do you need to do it?
 
 	A hidden file is created that keeps track of changes within that repository and it is done in order to establish the scope fo the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging contains the actions you want to do to the files with the working directory, but the actions are not final like they are in the repository. It gives the value to not carry out your changes.

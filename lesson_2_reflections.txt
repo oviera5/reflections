@@ -5,3 +5,22 @@ What happens when you initalize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging contains the actions you want to do to the files with the working directory, but the actions are not final like they are in the repository. It gives the value to not carry out your changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Run git diff and git diff -- staging to see the different logical changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? 
+
+	You could create a branch at the beginning of each year or quarter to keep historical logs tied to a time frame.
+
+How do the diagrams help you visualize the branch structure?
+	
+	They help you see the parent-child relationships of each commit and branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the we do?
+
+	The merge brings together the changes made from two branches into one, and the representation you showed that master acquired coins in order to simulate git's perspective.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	The pro is speed and the con is control. 
